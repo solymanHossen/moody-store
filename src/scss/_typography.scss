@@ -1,0 +1,96 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+  line-height: 1;
+  font-weight: var(--fw-400);
+
+}
+.titleBold{
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+ color:  #A86A3D;
+
+}
+
+.mainBtn{
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+padding: 16px 28px 16px 28px;
+color: black;
+background: none4;
+border: 1px solid black;
+
+}
+.hotDealsWeek{
+  font-family: Roboto;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+
+}
+
+.title2{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 0.5);
+
+ 
+  
+}
+
+h1,
+.title1 {
+  font-family: Roboto;
+font-size: 28px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+@media (max-width: 767px) {
+font-size: 4rem;
+
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10rem;
+    height: 2px;
+    top: -5rem;
+    background-color: $backgroundAny;
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+.title1--mod {
+  &::before {
+    content: "";
+    background-color:$base-color;
+    opacity: 0.6;
+    
+    
+  }
+}
+
+h3,
+.title3 {
+  font-size: 7.2rem;
+}
+
+p {
+  padding: 1rem 0;
+  line-height: 1.5;
+}
