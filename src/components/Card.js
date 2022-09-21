@@ -62,6 +62,7 @@ const Card = () => {
             </h1>
           </div>
         </div>
+        
       </div>
 
 

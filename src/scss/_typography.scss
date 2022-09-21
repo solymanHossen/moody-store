@@ -94,3 +94,19 @@ p {
   padding: 1rem 0;
   line-height: 1.5;
 }
+
+.relativeCss{
+  position: absolute;
+  /* position: fixed; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.pForm{
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 300;
+  font-size: 14px;
+  line-height: 21.09px;
+}
